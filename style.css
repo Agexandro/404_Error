@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+.column {
+    float: left;
+    width: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+    padding: 40px 0px 0px 77px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 10vh;
+}
+
+.column:first-child {
+    text-align: center;
+}
+
+.column {
+    padding: 0px 5%;
+}
+
+.column p:nth-child(1) {
+    font-family: 'Space Mono';
+    font-size: 64px;
+    line-height: 95px;
+    font-weight: bold;
+    width: 586px;
+    letter-spacing: -0.035em;
+    display: block;
+}
+
+.column p:nth-child(2) {
+    width: 381px;
+    font-family: 'Space Mono';
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    margin: 5% 0;
+    display: block;
+    overflow: hidden;
+}
+
+a {
+    width: 216px;
+    height: 68px;
+    background-color: #333;
+    text-decoration: none;
+    color: white;
+    padding: 24px 30px;
+    display: block;
+}
+
+@media only screen and (max-width:1200px) {
+    h1 {
+        padding: 0;
+    }
+    .column p:nth-child(1) {
+        width: 100%;
+        font-size: 48px;
+        line-height: 71px;
+    }
+    .column p:nth-child(2) {
+        width: 100%;
+        font-size: 18px;
+    }
+    a {
+        font-size: 14px;
+    }
+    body {
+        padding: 2%;
+    }
+    
+}
+
+@media only screen and (max-width:800px) {
+    h1 {
+        margin-bottom: 5vh;
+    }
+
+    .column {
+        width: 100%;
+    }
+    img{
+        width: 80%;
+    }
+}
