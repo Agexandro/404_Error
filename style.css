@@ -99,3 +99,11 @@ a {
         width: 80%;
     }
 }
+
+footer{
+    position: absolute;
+    clear: both;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
